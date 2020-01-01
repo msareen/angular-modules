@@ -1,0 +1,15 @@
+[
+    {
+        "name": "custom page",
+        "routerLink": "/customMe/customPage"
+    },
+    {
+        "name": "vendor page",
+        "routerLink": "/vendor/vendorPage"
+    },
+    {
+        "name": "vendor page new",
+        "routerLink": "/vendor/vendorPageNew"
+    }
+
+]

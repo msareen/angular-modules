@@ -1,7 +1,7 @@
 import { NgModule, isDevMode } from '@angular/core';
 import { TestComponent } from './test/test.component';
 import { RouterModule, Routes } from '@angular/router';
-import { VendorLibModule } from 'vendor-lib';
+
 
 
 
@@ -13,7 +13,7 @@ const routes: Routes = [
   },
   {
     path: 'vendor',
-    loadChildren: () => import('vendor-lib').then(m => m.VendorLibModule)
+    loadChildren: () => import('./vendor-lib-wrapper.module').then(m => m.VendorLibWrapperModule)
   }
 ]
 

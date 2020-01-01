@@ -5,7 +5,9 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --baseHref=/module-test/",
-    "build:prod": "ng build --baseHref=/module-test/ --aot",
+    "build:prod": "ng build --baseHref=/module-test/ --prod --build-optimizer --namedChunks --outputHashing=none",
+    "build:deploy": "npm run build:prod && npm run deploy",
+    "deploy": "cp -rvf ./dist/module-test/ ../www/module-test/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -23,7 +25,7 @@
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1",
-    "vendor-lib": "./src/vendor-lib/vendor-lib-0.0.3.tgz"
+    "vendor-lib": "./src/vendor-lib/vendor-lib-0.0.5.tgz"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.3",

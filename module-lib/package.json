@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build vendor-lib",
+    "pack": "npm run build && cd ./dist/vendor-lib && npm pack",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
