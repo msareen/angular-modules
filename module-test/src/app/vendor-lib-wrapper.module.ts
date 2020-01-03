@@ -8,13 +8,6 @@ import { VendorLibModule, VendorLibComponent, VendorPageNewComponent } from 'ven
   declarations: [],
   imports: [
     VendorLibModule
-  ],
-  exports:[
-    VendorLibModule
-  ],
-  entryComponents: [
-    VendorLibComponent,
-    VendorPageNewComponent
   ]
 })
 export class VendorLibWrapperModule { }
