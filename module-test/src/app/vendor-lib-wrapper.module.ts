@@ -1,11 +1,9 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { VendorLibModule, VendorLibComponent, VendorPageNewComponent } from 'vendor-lib';
+import { VendorLibModule } from 'vendor-lib';
 
 
 
 @NgModule({
-  declarations: [],
   imports: [
     VendorLibModule
   ]

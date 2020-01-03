@@ -24,7 +24,7 @@
     "@angular/router": "~8.2.4",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
-    "vendor-lib": "./src/vendor-lib/vendor-lib-0.0.5.tgz",
+    "vendor-lib": "./src/vendor-lib/vendor-lib-0.0.8.tgz",
     "webpack-notifier": "^1.8.0",
     "zone.js": "~0.9.1"
   },

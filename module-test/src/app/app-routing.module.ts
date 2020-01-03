@@ -2,9 +2,6 @@ import { NgModule, isDevMode } from '@angular/core';
 import { TestComponent } from './test/test.component';
 import { RouterModule, Routes } from '@angular/router';
 
-
-
-
 const routes: Routes = [
   { path: 'test', component: TestComponent },
   {
